@@ -1,5 +1,10 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+title: YangYang Research Organization
+description: Research and development of security products
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  owner_name: YangYang Research Organization
+  owner_url: https://yangyang-research.github.io
+  repository_url: https://github.com/YangYang-Research
