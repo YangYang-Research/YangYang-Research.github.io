@@ -1,11 +1,13 @@
-title: YangYang Research Organization
-description: Research about Security, AI
+title: YangYang Research
+description: Security research and SaaS solutions
+logo: "/images/logo.png"
+login_url: "#"
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
-  owner_name: YangYang Research Organization
+  owner_name: YangYang Research
   owner_url: https://yangyang-research.github.io
   repository_url: https://github.com/YangYang-Research
   repository_name: YangYang-Research.github.io
