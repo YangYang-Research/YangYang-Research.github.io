@@ -134,9 +134,42 @@
 
 .pricing-section h2,
 .products-section h2,
-.services-section h2 {
+.services-section h2,
+.contact-section h2 {
   text-align: center;
   margin-bottom: 1.5rem;
+}
+
+.contact-section {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.contact-desc {
+  margin: 0 0 1.25rem;
+  color: #606c71;
+  font-size: 1rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-contact {
+  padding: 0.6rem 1.25rem;
+  background-color: #159957;
+  border-color: #159957;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  background-color: #138a4d;
+  border-color: #138a4d;
+  color: #fff;
+  text-decoration: none;
 }
 
 .products-section {
@@ -399,4 +432,102 @@
 
 .landing-cta a {
   font-weight: 600;
+}
+
+// Page footer
+.site-footer {
+  padding-top: 2.5rem;
+  margin-top: 2.5rem;
+  border-top: 1px solid #e9ebec;
+}
+
+.footer-inner {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.footer-col-intro .footer-intro {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #606c71;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+  color: #606c71;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.footer-social-link:hover {
+  color: #159957;
+  background: rgba(21, 153, 87, 0.1);
+  text-decoration: none;
+}
+
+.footer-social-icon {
+  display: block;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 42em) {
+  .footer-columns {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.footer-col-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #159957;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #606c71;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+  color: #159957;
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ebec;
+  font-size: 0.85rem;
+  color: #819198;
 }

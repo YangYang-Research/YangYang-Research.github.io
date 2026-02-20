@@ -84,3 +84,12 @@ description: Security research and SaaS solutions
     </div>
   </div>
 </section>
+
+<section class="landing-section contact-section" id="contact">
+  <h2>Contact</h2>
+  <p class="contact-desc">Get in touch for inquiries, support, or custom plans.</p>
+  <div class="contact-links">
+    <a href="https://t.me/noobpk" class="btn btn-contact" target="_blank" rel="noopener">Telegram</a>
+    <a href="mailto:yangyang.organization@gmail.com" class="btn btn-contact">Email</a>
+  </div>
+</section>
